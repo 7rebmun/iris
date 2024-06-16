@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:iris/src/constants.dart';
 
 class IrisColors {
   final Color colorSchemeSeed;
@@ -8,5 +9,5 @@ class IrisColors {
   });
 }
 
-final lightColors = IrisColors(colorSchemeSeed: Colors.green);
-final darkColors = IrisColors(colorSchemeSeed: Colors.green);
+final lightColors = IrisColors(colorSchemeSeed: kColorSchemeSeed);
+final darkColors = IrisColors(colorSchemeSeed: kColorSchemeSeed);

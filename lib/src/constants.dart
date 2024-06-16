@@ -1,6 +1,7 @@
 import 'dart:io';
 
 import 'package:flutter/foundation.dart';
+import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 final kIsMacOS = !kIsWeb && Platform.isMacOS;
@@ -13,4 +14,5 @@ final kIsIOS = !kIsWeb && Platform.isIOS;
 final kIsAndroid = !kIsWeb && Platform.isAndroid;
 final kIsMobile = !kIsWeb && (Platform.isIOS || Platform.isAndroid);
 
-final kFontFamily = GoogleFonts.poppins().fontFamily;
+final kFontFamily = GoogleFonts.dmSans().fontFamily;
+const kColorSchemeSeed = Colors.blue;
